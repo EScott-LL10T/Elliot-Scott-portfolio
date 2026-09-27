@@ -5,14 +5,17 @@ img{
 
 .gridContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-areas:
-        "header header"
-        "nav nav"
-        "sectionUpperLeft sectionUpperMiddle"
-        "sectionUpperRight sectionLowerLeft"
-        "sectionLowerMiddle sectionLowerRight"
-        "footer footer";
+        "header"
+        "nav"
+        "sectionUpperLeft"
+        "sectionUpperMiddle"
+        "sectionUpperRight"
+        "sectionLowerLeft"
+        "sectionLowerMiddle"
+        "sectionLowerRight"
+        "footer";
 
     min-width: 100%;
 }
@@ -26,10 +29,10 @@ h2{
 }
 body{
     margin: 3vw;
-    font-size: 0.5em;
+    font-size: 0.7em;
 }
 
 figure img{
-    width: 30vh;
+    width: 50vw;
     height: 20vh;
 }

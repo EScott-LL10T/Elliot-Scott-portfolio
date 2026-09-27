@@ -88,10 +88,12 @@ p{
 }
 
 footer img{
-    width: 3em;
-    height: 3em;
-    height: auto;
+    min-width: 3em;
+    min-height: 3em;
+    width: 7vh;
+    height: 7vh;
     margin: 0.5vh;
+    border-radius: 0;
 }
 
 footer img:hover{

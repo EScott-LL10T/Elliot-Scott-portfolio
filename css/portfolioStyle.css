@@ -13,7 +13,8 @@ nav{
 .flexContainer{
     display: flex;
     justify-content: center;
-    gap: 19vw;
+    align-items: center;
+    gap: 17vw;
     padding: 2vh;
 }
 
