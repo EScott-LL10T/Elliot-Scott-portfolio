@@ -13,6 +13,8 @@ img{
         "sectionUpperRight sectionLowerLeft"
         "sectionLowerMiddle sectionLowerRight"
         "footer footer";
+
+    min-width: 100%;
 }
 
 h1{
@@ -24,4 +26,10 @@ h2{
 }
 body{
     margin: 3vw;
+    font-size: 0.5em;
+}
+
+figure img{
+    width: 30vh;
+    height: 20vh;
 }

@@ -94,10 +94,8 @@ h2{
 }
 
 figure img{
-    min-width: 15em;
-    min-height: 10em;
-    width: 30vh;
-    height: 20vh;
+    width: 15em;
+    height: 10em;
     border-radius: 2vh;
 }
 
